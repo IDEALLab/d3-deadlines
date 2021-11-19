@@ -75,7 +75,7 @@
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-xs-5 col-sm-6">
-                    <a class="conf-title" href="{{ site.baseurl }}/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
+                    <a class="conf-title" href="{{site.baseurl | prepend: site.domain }}/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                 </div>
                 <div class="col-xs-7 col-sm-6">
                   <span class="timer"></span>
@@ -267,7 +267,7 @@
         var url = new URL(window.location);
         var subs = url.searchParams.get('sub');
         if (subs == undefined) {
-           subs = store.get('{{ site.domain }}');
+           subs = store.get('{{site.baseurl | prepend: site.domain }}');
         } else {
            subs = subs.toUpperCase().split(',');
         }
@@ -294,7 +294,7 @@
             $('#' + subs[i] + '-checkbox').prop('checked', true);
           }
         }
-        store.set('{{ site.domain }}', subs);
+        store.set('{{site.baseurl | prepend: site.domain }}', subs);
         window.history.pushState('', '', '{{site.baseurl | prepend: site.domain }}/?sub=' + subs.join());
 
         // Event handler on checkbox change
@@ -318,7 +318,7 @@
             }
           }
           console.log(subs);
-          store.set('{{ site.domain }}', subs);
+          store.set('{{site.baseurl | prepend: site.domain }}', subs);
           window.history.pushState('', '', '{{site.baseurl | prepend: site.domain }}/?sub=' + subs.join());
         });
 
@@ -335,7 +335,7 @@
           $('.' + csub + '-conf').show();
           subs = [csub];
           console.log(subs);
-          store.set('{{ site.domain }}', subs);
+          store.set('{{site.baseurl | prepend: site.domain }}', subs);
           window.history.pushState('', '', '{{site.baseurl | prepend: site.domain }}/?sub=' + subs.join());
         });
     });
