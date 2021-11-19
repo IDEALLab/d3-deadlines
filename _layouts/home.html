@@ -7,15 +7,15 @@
     <title>{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}?t={{site.time | date: '%s'}}" media="screen,projection">
-    <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
-    <script type="text/javascript" src="{{ "/static/js/jquery.min.js" | prepend:site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
+    <link rel="stylesheet" type="text/css" href="//{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="//{{ "/static/css/deadlines.css" | prepend:site.baseurl }}?t={{site.time | date: '%s'}}" media="screen,projection">
+    <link rel="shortcut icon" href="//{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
+    <script type="text/javascript" src="//{{ "/static/js/jquery.min.js" | prepend:site.baseurl }}"></script>
+    <script type="text/javascript" src="//{{ "/static/js/jquery.countdown.min.js" | prepend:site.baseurl }}"></script>
+    <script src="//{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
+    <script src="//{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
+    <script src="//{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
+    <script src="//{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
 
   </head>
   <body>
@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12">
                   <h1>
-                    {{ site.title }} 
+                    {{ site.title }}
                   </h1>
                 </div>
                 <div class="col-xs-12" style="margin-bottom: 10px">
@@ -64,7 +64,7 @@
               </div>
               <div class="meta col-xs-12">
                 You can optionally export all deadlines to
-                <a href="https://calendar.google.com/calendar/r?cid={{ site.url | prepend:site.baseurl }}/ai-deadlines.ics">Google Calendar</a> or
+                <a href="https://calendar.google.com/calendar/r?cid={{ site.baseurl | prepend:site.domain }}/ai-deadlines.ics">Google Calendar</a> or
                 <a href="{{ site.baseurl }}/ai-deadlines.ics">.ics</a>.
               </div>
             </div>
