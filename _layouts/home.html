@@ -29,10 +29,6 @@
                   </h1>
                 </div>
                 <div class="col-xs-12" style="margin-bottom: 10px">
-                  by <a href="https://paperswithcode.com" class="pwc-link">
-                    <div class="icon-inner pwc-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="s-ion-icon"><path d="M88 128h48v256H88zM232 128h48v256h-48zM160 144h48v224h-48zM304 144h48v224h-48zM376 128h48v256h-48z"></path><path d="M104 104V56H16v400h88v-48H64V104zM408 56v48h40v304h-40v48h88V56z"></path></svg></div>
-                    Papers With Code
-                  </a>
                 </div>
                 <div class="meta col-xs-12">
                   {{ site.description }}.
@@ -69,7 +65,7 @@
               <div class="meta col-xs-12">
                 You can optionally export all deadlines to
                 <a href="https://calendar.google.com/calendar/r?cid={{ site.url | prepend:site.baseurl }}/ai-deadlines.ics">Google Calendar</a> or
-                <a href="{{ site.url | prepend:site.baseurl }}/ai-deadlines.ics">.ics</a>.
+                <a href="{{ site.baseurl }}/ai-deadlines.ics">.ics</a>.
               </div>
             </div>
         </div>
@@ -79,7 +75,7 @@
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-xs-5 col-sm-6">
-                    <a class="conf-title" href="{{ site.url }}/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
+                    <a class="conf-title" href="{{ site.baseurl }}/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
                 </div>
                 <div class="col-xs-7 col-sm-6">
                   <span class="timer"></span>
@@ -129,7 +125,7 @@
                     <span class="deadline-time"></span>
                   </div>
                 </div>
-                <div class="calendar"></div>
+                <!--<div class="calendar"></div>-->
               </div>
             </div>
             <div class="row">
