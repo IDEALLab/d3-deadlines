@@ -2,12 +2,12 @@ title: AI Conference Deadlines
 description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
 author: Abhishek Das
 
-domain: "aideadlin.es"
-baseurl: ""
+domain: "http://ideal.umd.edu"
+baseurl: "http://ideal.umd.edu/d3-deadlines/"
 
 twitter_hashtag: machinelearning
-github_username: abhshkdz
-github_repo: ai-deadlines
+github_username: IDEALLab
+github_repo: d3-deadlines
 
 markdown: kramdown
 ga_id:
