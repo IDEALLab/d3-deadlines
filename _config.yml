@@ -1,11 +1,10 @@
-title: AI Conference Deadlines
-description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
-author: Abhishek Das
+title: Data-Driven Design Conference Deadlines
+description: Countdowns to relevant conference, journal, or workshop deadlines of relevance to the IDEAL Lab
+author: Abhishek Das with Modifications by Mark Fuge and IDEAL Lab members
 
-domain: "http://ideal.umd.edu"
+domain: "http://ideal.umd.edu/d3-deadlines/"
 baseurl: "http://ideal.umd.edu/d3-deadlines/"
 
-twitter_hashtag: machinelearning
 github_username: IDEALLab
 github_repo: d3-deadlines
 
