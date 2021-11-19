@@ -3,7 +3,7 @@ description: Countdowns to relevant conference, journal, or workshop deadlines o
 author: Abhishek Das with Modifications by Mark Fuge and IDEAL Lab members
 
 domain: "http://ideal.umd.edu/"
-baseurl: "d3-deadlines/"
+baseurl: "d3-deadlines"
 
 github_username: IDEALLab
 github_repo: d3-deadlines
