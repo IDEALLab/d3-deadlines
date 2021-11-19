@@ -1,13 +1,13 @@
 ---
 - name: Machine Learning
   sub: ML
-- name: Computer Vision
-  sub: CV
-- name: Natural Language Proc
-  sub: NLP
+- name: Engineering Design
+  sub: ED
 - name: Robotics
   sub: RO
-- name: Speech/SigProc
-  sub: SP
-- name: Data Mining
-  sub: DM
+- name: Internal
+  sub: IN
+- name: Scientific Computing
+  sub: SC
+- name: Computer Graphics
+  sub: CG
