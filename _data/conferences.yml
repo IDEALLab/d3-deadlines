@@ -228,3 +228,16 @@
   place: Baltimore, Maryland USA
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 20, 2022. More info <a href=''https://icml.cc/Conferences/2022/''>here</a>.'
+  
+- title: JMD SI
+  hindex: 40
+  year: 2022
+  id: jmdsi22_am
+  link: https://www.asme.org/publications-submissions/journals/administration/call-for-papers
+  deadline: '2022-01-27 23:59:00'
+  abstract_deadline: '2022-04-01 23:59:00'
+  timezone: UTC-12
+  date: N/A
+  place: N/A
+  sub: ED
+  note: 'ASME Journal of Mechanical Design Special Issue: Design for Advanced Manufacturing'
