@@ -187,8 +187,8 @@
   hindex: N/A
   year: 2022
   id: idetc22
-  link: https://iced.designsociety.org/
-  deadline: '2022-03-09 11:59:00'
+  link: https://event.asme.org/IDETC-CIE
+  deadline: '2022-02-14 11:59:00'
   timezone: UTC
   date: August 14 – 17, 2022
   place: St. Louis, Missouri
@@ -207,12 +207,12 @@
 
 - title: SCF
   hindex: N/A
-  year: 2022
+  year: 2021
   id: scf21
   link: https://scf.acm.org/2021/submissions.html
-  deadline: '2022-07-09 23:59:59'
+  deadline: '2021-07-09 23:59:59'
   timezone: America/New_York
-  date: October 28-29, 2021
+  date: October 28-29, 202
   place: Online
   sub: ED
 
@@ -234,8 +234,7 @@
   year: 2022
   id: jmdsi22_am
   link: https://www.asme.org/publications-submissions/journals/administration/call-for-papers
-  deadline: '2022-01-27 23:59:00'
-  abstract_deadline: '2022-04-01 23:59:00'
+  deadline: '2022-04-01 23:59:00'
   timezone: UTC-12
   date: N/A
   place: N/A
