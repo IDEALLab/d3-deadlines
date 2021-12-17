@@ -207,7 +207,9 @@
 
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            // $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            // Removing the minutes and seconds countdown, since that is unnecesarily anxiety producing...
+            $(this).html(event.strftime('%D days %Hh'));
           });
 
           // convert deadline to local timezone
