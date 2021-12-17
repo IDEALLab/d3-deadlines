@@ -2,6 +2,8 @@
 
 Countdown timers to keep track of a bunch of conference, journal, and workshop deadlines of relevance to the [IDEAL Lab](http://ideal.umd.edu), primarily at the union of Design and Machine Learning, also including internal lab deadlines where applicable.
 
+See: http://ideal.umd.edu/d3-deadlines/
+
 ## Contributing
 
 To add or update a deadline:
