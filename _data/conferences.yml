@@ -252,3 +252,29 @@
   place: San Servolo, Venice, Italy
   sub: ED
   note: '<b>NOTE</b>: Abstract and Title deadline on Jan 10, 2022. More info <a href=''https://cc.acm.org/2022/papers/''>here</a>.'
+  
+- title: CSCW
+  hindex: 26
+  year: 2022
+  id: cscw22
+  link: https://cscw.acm.org/2022/submit/papers.html
+  deadline: '2022-01-15 23:59:00'
+  timezone: UTC-12
+  date: November 12-16, 2022
+  place: Taipei, Taiwan
+  sub: ED
+  note: '<b>NOTE</b>: CSCW has a bi-annual submission window. For more inromation on their process see <a href=''https://cscw.acm.org/2022/submit/papers.html''>here</a>.'
+
+- title: CHI
+  hindex: 101
+  year: 2022
+  id: chi22
+  link: https://chi2022.acm.org/for-authors/presenting/papers/
+  deadline: '2021-09-09 23:59:00'
+  timezone: UTC-12
+  date: April 30 - May 6, 2022
+  place: New Orleans, USA
+  sub: ED
+  note: '<b>NOTE</b>: Abstract deadline occurs Thursday Sept. 2nd. For more info on the publication process <a href=''https://chi2022.acm.org/for-authors/presenting/papers/''>see here</a>.'
+
+
