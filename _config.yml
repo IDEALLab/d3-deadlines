@@ -2,7 +2,7 @@ title: Data-Driven Design Conference Deadlines
 description: Countdowns to relevant conference, journal, or workshop deadlines of relevance to the IDEAL Lab. This list does not pretend to be exhaustive and does not include journals we publish in, but it is a helpful internal tool that we use to track opportunities.
 author: Abhishek Das with Modifications by Mark Fuge and IDEAL Lab members
 
-domain: "http://ideal.umd.edu/"
+domain: "https://ideal.umd.edu/"
 baseurl: "d3-deadlines"
 
 github_username: IDEALLab
