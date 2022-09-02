@@ -1,5 +1,33 @@
 ---
 
+- title: Summer Internal
+  year: 2023
+  id: summerInternal
+  deadline: '2023-08-25 09:00:00'
+  timezone: UTC-5
+  place: College Park, MD
+  sub: IN
+  note: Internal deadline for end of Summer semester lab review
+
+- title: Spring Internal
+  year: 2023
+  id: springInternal
+  deadline: '2023-05-19 09:00:00'
+  timezone: UTC-5
+  place: College Park, MD
+  sub: IN
+  note: Internal deadline for end of Spring semester lab review
+
+- title: Fall Internal
+  year: 2022
+  id: fallInternal
+  deadline: '2022-12-16 09:00:00'
+  timezone: UTC-5
+  place: College Park, MD
+  sub: IN
+  note: Internal deadline for end of Fall semester lab review
+
+
 - title: AAMAS
   year: 2023
   id: aamas23
