@@ -1,5 +1,17 @@
 ---
 
+- title: WCSMO-15
+  hindex: N/A
+  year: 2023
+  id: wcsmo15
+  link: https://wcsmo2023.com/
+  deadline: '2023-03-21 23:59:59'
+  abstract_deadline: '2023-01-06 23:59:59'
+  timezone: America/New_York
+  date: June 5-9, 2023
+  place: Cork, Ireland
+  sub: ED
+
 - title: Summer Internal
   year: 2023
   id: summerInternal
